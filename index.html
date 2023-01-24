@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-gb">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assests/css/scores.css">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+
+    <link rel="stylesheet" href="./assests/css/styles.css" />
 </head>
+
 <body>
-    <div class="scores"><a href="highscore.html">View Highscores</a></div>
+    <div class="scores"><a href="highscores.html">View Highscores</a></div>
 
     <div class="timer">Time: <span id="time">0</span></div>
 
@@ -28,12 +31,12 @@
 
         <div id="correct" class="hide">
             <h2>Correct!</h2>
-            <audio id="correct-audio" src="/assets/sfx/correct.wav"></audio>
+            <audio id="correct-audio" src="/assests/sfx/correct.wav"></audio>
         </div>
 
         <div id="incorrect" class="hide">
             <h2>Incorrect!</h2>
-            <audio id="incorrect-audio" src="/assets/sfx/incorrect.wav"></audio>
+            <audio id="incorrect-audio" src="/assests/sfx/incorrect.wav"></audio>
         </div>
 
         <div id="end-screen" class="hide">
@@ -48,7 +51,8 @@
         <div id="feedback" class="feedback hide"></div>
     </div>
 
-    <script src="./assets/js/questions.js"></script>
-    <script src="./assets/js/logic.js"></script>
+    <script src="./assests/js/questions.js"></script>
+    <script src="./assests/js/logic.js"></script>
 </body>
+
 </html>
